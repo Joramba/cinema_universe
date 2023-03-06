@@ -1,0 +1,29 @@
+.movie_card {
+  width: 100%;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #f9d3b4;
+  gap: 100px;
+}
+
+a {
+  color: #fff;
+}
+
+.movie_card-left > div {
+  font-size: 35px;
+  margin: 0 0 30px 0;
+  width: 400px;
+  word-wrap: break-word;
+}
+
+.movie_card-right {
+  line-height: 40px;
+}
+
+.movie_card-right > div > span {
+  font-weight: 700;
+}
